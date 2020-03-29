@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import chart from '../../assets/chart.svg';
+import ValueCard from "../ValueCard";
 
 function CotacaoComercial() {
     return (
@@ -15,6 +16,7 @@ function CotacaoComercial() {
                    <img src={chart}/>
                 </Grid>
                 <Grid item xs={6}>
+                    <ValueCard/>
                 </Grid>
             </Grid>
 
